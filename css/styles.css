@@ -1,3 +1,22 @@
 body {
-    font-family: "sans serif";
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: midnightblue;
+    background-color: mintcream;
+    box-shadow: 0px -2px 4px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
